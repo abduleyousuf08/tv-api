@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@600;700;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -15,10 +16,15 @@
   height: 60px;
 }
 
+ul li {
+  cursor: pointer;
+}
+
 .nav {
   display: flex;
   align-items: center;
 }
+
 .nav li {
   list-style: none;
   padding: 0px 6px;
@@ -38,6 +44,7 @@
   align-items: center;
   padding: 25px 0px;
 }
+
 .search-box {
   margin-top: 10px;
   padding: 5px 5px;
@@ -48,12 +55,13 @@
   border-radius: 2px;
 }
 
-#search{
-    background: red;
-    border:none;
-    padding:7px 12px;
-    color:white;
-    font-size:14px
+#search {
+  background: red;
+  border: none;
+  padding: 7px 12px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .main {
@@ -64,11 +72,15 @@
 
 .movies-section {
   display: flex;
-  margin: 15px 50px;
+  margin: 15px 110px;
+  cursor: pointer;
+  flex-wrap: wrap
 }
 
+
+
 .movie-card {
-  margin: 0px 10px;
+  margin: 10px 10px;
 }
 
 .movie-image {
@@ -77,6 +89,7 @@
 
 .movie-image img {
   height: inherit;
+  margin: 10px 20px;
 }
 
 .movie-heading {
